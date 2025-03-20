@@ -1,0 +1,14 @@
+            - name: Pylint GitHub Action
+  # You may pin to the exact commit or the version.
+  # uses: ReasonSoftware/action-pylint@d78c631ff81e1d15bbe67bb5b1da2ed92936d52a
+  uses: ReasonSoftware/action-pylint@v1.0.2
+  with:
+    # A list of all paths to test (e.g. "src/")
+    filepaths: # optional, default is .
+    # Extra options
+    options: # optional, default is --recursive=y --rcfile=/pyproject.toml
+    # requirements.txt filepath
+    requirements_file: # optional, default is 
+    # Environment preparation shell script filepath
+    init_script: # optional, default is 
+          
